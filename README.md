@@ -21,3 +21,45 @@ current owner occupied units database.  The main request will rely on these.  Fu
 
 
 <i>Meeting times scheduled for after class on Wednesdays.</i>
+
+
+<h1>Deliverable 1 </h1>
+
+<h1> Notebooks for datasets </h1>
+We have explored different datasets in different notebooks. If we need to mix different datasets then we will use our a new notebook and provide a decription of what datasets(and derivatives) are used in that notebook. This section contains notebooks and their descriptions. 
+
+
+<h2> landPDExploration.ipynb </h2>
+<h3> Database </h3>
+
+https://datacommon.mapc.org/browser/datasets/360
+
+Goals of this notebook: 
+
+Pull all residential properties from parcel database for Boston & Identify which are owner occupied and how many units for each property
+
+<h3> Dervived Data Files </h3>
+bostonParcelsData.csv
+
+<h2>Post Analysis of Dataset</h2>
+This dataset is not very well suited for our analysis, since it doesn't offer information about whether or not a housing unit is owner occupied or affordable. It does contain a great breadth of all units in Boston, however the main issue with the data is that the row identfiers for any given property don't seem to have a match with other datasets. Thus it will be very hard to use this dataset with the other datasets we have been provided. If the PM or someone from City Council could fill us in on this dataset's dictionary we could have some use for it in the future for the extended project. 
+
+----------
+<h2> data_explore.ipynb </h2>
+<h3> Database </h3>
+
+https://datacommon.mapc.org/browser/datasets/360
+
+Goals of this notebook: 
+
+Pull all residential properties from parcel database for Boston & Identify which are owner occupied and how many units for each property
+
+<h3> Dervived Data Files </h3>
+bostonParcelsData.csv
+
+<h2>Post Analysis of Dataset</h2>
+This dataset is not very well suited for our analysis, since it doesn't offer information about whether or not a housing unit is owner occupied or affordable. It does contain a great breadth of all units in Boston, however the main issue with the data is that the row identfiers for any given property don't seem to have a match with other datasets. Thus it will be very hard to use this dataset with the other datasets we have been provided. If the PM or someone from City Council could fill us in on this dataset's dictionary we could have some use for it in the future for the extended project. 
+
+
+
+
