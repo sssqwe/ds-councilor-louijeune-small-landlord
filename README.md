@@ -15,8 +15,11 @@ As City Councilor At-Large, Ruthzee is fighting for affordable housing and homeo
 ## Contributors
 
 Anderson Xia (CAS'23)
+
 Dominic Maglione (CAS'24, GRS'24)
+
 Daniel Melchor (CAS'23)
+
 Nina Athma (CAS'24)
 
 ## Project Contacts
@@ -24,8 +27,11 @@ Nina Athma (CAS'24)
 ### Boston City Council
 
 Jesse Purvis
+
 jesse.purvis@boston.gov
+
 (805) 252-1071
+xs
 Director of Policy
 
 ### Spark!
