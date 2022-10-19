@@ -22,7 +22,7 @@ Sufficient data should have been collected to perform a preliminary analysis of 
 
 ### Cleaning the Data
 
-Before beginnig any sort of analysis, we pre-processed (cleaned) the provided data from both the Property Assessment and Income-Restricted Housing databases. This process was completed in two separate files.
+Before beginning any sort of analysis, we pre-processed (cleaned) the provided data from both the Property Assessment and Income-Restricted Housing databases. This process was completed in two separate files.
 
 [`1_preprocess_all.ipynb`](../src/1_preprocess_all.ipynb)
 
@@ -36,13 +36,13 @@ After cleaning the data, as specified above, we loaded the cleaned datasets to c
 
 [2_overlay.ipynb](../src/2_overlay.ipynb)
 
-The overlayed (joined) data can be viewed under the `clean` [directory](../data/clean).
+The overlaid (joined) data can be viewed under the `clean` [directory](../data/clean).
 
 ## Two Key Questions
 
 ### What is the breakdown of landlords (in percent) listed under current affordable housing programs?
 
-We analyzed the data to determine which landlords provide the most (quantity) affordable housing as listed by our overlayed dataset. Below is a table containing our results accompanied by a pie chart to display the breakdown by percentage.
+We analyzed the data to determine which landlords provide the most (quantity) affordable housing as listed by our overlaid dataset. Below is a table containing our results accompanied by a pie chart to display the breakdown by percentage.
 
 Please note, only the top 10 landlords are displayed to avoid clutter. The process was completed in the following file.
 
@@ -73,7 +73,7 @@ This analysis provides us a new question. What units listed under "Affordable Ho
 
 ### What is the geographic distribution of these landlords by city council district?
 
-We analyzed the data to determine the quantity of landlords by city coundil district as listed by our overlayed dataset. Below is a table containing our results accompanied by a bar chart to display the breakdown by quantity.
+We analyzed the data to determine the quantity of landlords by city council district as listed by our overlaid dataset. Below is a table containing our results accompanied by a bar chart to display the breakdown by quantity.
 
 Unlike the prior question, there was no limit placed on the quantity of districts displayed, as that quantity is already defined. The process was completed in the following file.
 
@@ -103,17 +103,17 @@ From the data we can observe Boston clearly contains the most landlords that off
 
 Interestingly, the largest landlord as observed above is the Trustees of Boston College, yet Chestnut Hill has the lowest number of landlords that offer affordable housing.
 
-This draws into question the impact of each landlord versus the sheer quantity of units they provide. In other words while Boston has the largest amount of landlords, it doesn't have the largest landlords to impact ratio. It could be very beneficial to our goal to potentially determine and plot this ratio.
+This draws into question the impact of each landlord versus the sheer quantity of units they provide. In other words, while Boston has the largest amount of landlords, it doesn't have the largest landlords to impact ratio. It could be very beneficial to our goal to potentially determine and plot this ratio.
 
 ## Project Scope
 
-As of right now, the project scope remains unchanged from what was originall discussed with the client.
+As of right now, the project scope remains unchanged from what was originally discussed with the client.
 
 > Create a pathway for owner-occupied and small landlords (rather than commercial landlords) that could be added to a database of affordable housing units available to tenants qualified for affordable rental housing.
 
 ## Data Limitations
 
-We encountered one primary data limitation throughout our analysis. Between the two databases there is some missing data. For example, 49 of the income-restricted projects are on Washington Street, with each having a different unit number. However, in the `Property Assessment DB` many of the entries for Washington Street do not provide a unit number.
+We encountered one primary data limitation throughout our analysis. Between the two databases there are some missing data. For example, 49 of the income-restricted projects are on Washington Street, with each having a different unit number. However, in the `Property Assessment DB` many of the entries for Washington Street do not provide a unit number.
 
 Therefore, when we perform a `join` there are two potential outcomes,
 
@@ -122,4 +122,4 @@ Therefore, when we perform a `join` there are two potential outcomes,
 
 ## Potential Risks of Achieving Project Goal
 
-An potential risk of achieving our above specified project goal would be a lack of accurate data. As outlined in our _Data Limitations_, some income restricted housing projects do not provide data that accurately matches up with the Boston City Council's `Property Assessment DB`.
+A potential risk of achieving our above specified project goal would be a lack of accurate data. As outlined in our _Data Limitations_, some income-restricted housing projects do not provide data that accurately matches up with the Boston City Council's `Property Assessment DB`.
