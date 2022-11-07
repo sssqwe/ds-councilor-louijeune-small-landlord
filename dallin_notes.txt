@@ -1,0 +1,64 @@
+Questions for 10/21 meeting
+
+1. Toms data.  Is it just the Property assessment fy22 data cleaned?
+Isn't this analyze Boston?
+
+Boston Affordable Housing Stock Data has no pid, (not from analyze Boston)
+Income restricted properties in Boston (Analyze Boston) has no p_id (also, no address, can we get address)
+The above 2 are different things? 
+
+
+Property assessment fy22 - looks like toms data, does have pid, but we thinks its the same thing (same columns we thing)
+
+Is there anything besides OWN_OCC that designates as small? 
+
+
+
+ _______________________________________________
+Income restricted data sources relationship
+
+Income restricted: google places api to use the project name and get address..
+
+Category search link?
+
+To answer: what types of units are most available as low income?
+
+Differentiate occupied by people who own their units, or condo where there are 5 condo units.   
+People who own Rental properties that could accept low income with housing voucher.  
+
+Keep out condos, back pocket.  Rented units. 
+
+Toms data IS the property assessment data. It is filtered, he did not really explain why it was different. 
+
+Zipcodes are note neighborhoods.  He cares more about neighborhoods
+
+https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0/explore?location=42.312287%2C-71.056800%2C12.58
+
+Shape file for neighborhoods
+
+Housing navigator is tough says tom. 
+
+Who would be receptive to accepting affordable voucher.  
+There are 2 ways to have affordable.  One is where the unit is restricted:only rented to certain income. 
+
+
+
+Other is to subsidize the person. 
+
+Small properties is 6 units.  One of the dudes was interested in "small" properties.  
+
+Look at the size of the properties that have participated.  Hard to make small properties work for these programs.  
+
+Affordable housing definition is broad.  Ok duh.  Make sure you understand what affordable definition means.  
+
+
+Looking for the human element: where your landlord lives with you knows you and wants to rent to the right people. 
+
+What about the people that want to do it for the dollars?  
+
+
+
+
+
+
+
