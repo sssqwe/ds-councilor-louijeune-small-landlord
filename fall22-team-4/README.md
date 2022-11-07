@@ -1,3 +1,4 @@
+
 # CS 506 City Council - Councilor Louijeune Small Landlord Project
 
 ## Project Description
@@ -43,3 +44,4 @@ Tom Hopper
 ## License
 
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
